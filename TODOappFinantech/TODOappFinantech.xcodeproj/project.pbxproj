@@ -8,9 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D06A8E0A2792D64C003E3833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E092792D64C003E3833 /* AppDelegate.swift */; };
-		D06A8E0C2792D64C003E3833 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E0B2792D64C003E3833 /* SceneDelegate.swift */; };
-		D06A8E0E2792D64C003E3833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E0D2792D64C003E3833 /* ViewController.swift */; };
+		D06A8E0E2792D64C003E3833 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E0D2792D64C003E3833 /* MainViewController.swift */; };
 		D06A8E132792D64D003E3833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06A8E122792D64D003E3833 /* Assets.xcassets */; };
+		D06A8E202792D8D9003E3833 /* ViewControllerWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E1F2792D8D9003E3833 /* ViewControllerWithView.swift */; };
+		D06A8E222792D997003E3833 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E212792D997003E3833 /* MainView.swift */; };
+		D06A8E242792DA59003E3833 /* TODOModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E232792DA59003E3833 /* TODOModel.swift */; };
+		D06A8E272792E51F003E3833 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E262792E51F003E3833 /* ToDoCell.swift */; };
+		D06A8E292792E57E003E3833 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E282792E57E003E3833 /* Constants.swift */; };
+		D06A8E2C2792E8CE003E3833 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E2B2792E8CE003E3833 /* UIButtonExtension.swift */; };
+		D06A8E2E2792F800003E3833 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E2D2792F800003E3833 /* MainViewViewModel.swift */; };
+		D06A8E302792FBC7003E3833 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E2F2792FBC7003E3833 /* TableViewExtension.swift */; };
+		D06A8E3227930033003E3833 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06A8E3127930033003E3833 /* SceneDelegate.swift */; };
 		F0B624C69AB70B624D1B70FA /* Pods_TODOappFinantech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2A87B962E48936733B5BF7 /* Pods_TODOappFinantech.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,10 +28,18 @@
 		A5B3F087AB9E54BE4BD34ABA /* Pods-TODOappFinantech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOappFinantech.debug.xcconfig"; path = "Target Support Files/Pods-TODOappFinantech/Pods-TODOappFinantech.debug.xcconfig"; sourceTree = "<group>"; };
 		D06A8E062792D64C003E3833 /* TODOappFinantech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODOappFinantech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06A8E092792D64C003E3833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D06A8E0B2792D64C003E3833 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D06A8E0D2792D64C003E3833 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D06A8E0D2792D64C003E3833 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D06A8E122792D64D003E3833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D06A8E172792D64D003E3833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06A8E1F2792D8D9003E3833 /* ViewControllerWithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWithView.swift; sourceTree = "<group>"; };
+		D06A8E212792D997003E3833 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D06A8E232792DA59003E3833 /* TODOModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOModel.swift; sourceTree = "<group>"; };
+		D06A8E262792E51F003E3833 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		D06A8E282792E57E003E3833 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D06A8E2B2792E8CE003E3833 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		D06A8E2D2792F800003E3833 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		D06A8E2F2792FBC7003E3833 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		D06A8E3127930033003E3833 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +60,6 @@
 				A5B3F087AB9E54BE4BD34ABA /* Pods-TODOappFinantech.debug.xcconfig */,
 				4E08967E56D461B209FBB1A0 /* Pods-TODOappFinantech.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -69,13 +84,53 @@
 		D06A8E082792D64C003E3833 /* TODOappFinantech */ = {
 			isa = PBXGroup;
 			children = (
+				D06A8E252792DA6A003E3833 /* Models */,
+				D06A8E2A2792E8BB003E3833 /* Extensions */,
+				D06A8E1E2792D8AE003E3833 /* CustomClasses */,
+				D06A8E1D2792D753003E3833 /* Views */,
 				D06A8E092792D64C003E3833 /* AppDelegate.swift */,
-				D06A8E0B2792D64C003E3833 /* SceneDelegate.swift */,
-				D06A8E0D2792D64C003E3833 /* ViewController.swift */,
+				D06A8E3127930033003E3833 /* SceneDelegate.swift */,
 				D06A8E122792D64D003E3833 /* Assets.xcassets */,
 				D06A8E172792D64D003E3833 /* Info.plist */,
 			);
 			path = TODOappFinantech;
+			sourceTree = "<group>";
+		};
+		D06A8E1D2792D753003E3833 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D06A8E0D2792D64C003E3833 /* MainViewController.swift */,
+				D06A8E212792D997003E3833 /* MainView.swift */,
+				D06A8E262792E51F003E3833 /* ToDoCell.swift */,
+				D06A8E2D2792F800003E3833 /* MainViewViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D06A8E1E2792D8AE003E3833 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D06A8E1F2792D8D9003E3833 /* ViewControllerWithView.swift */,
+				D06A8E282792E57E003E3833 /* Constants.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		D06A8E252792DA6A003E3833 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D06A8E232792DA59003E3833 /* TODOModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D06A8E2A2792E8BB003E3833 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D06A8E2B2792E8CE003E3833 /* UIButtonExtension.swift */,
+				D06A8E2F2792FBC7003E3833 /* TableViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		F3069ED664BD05391AC5F1CD /* Frameworks */ = {
@@ -199,9 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D06A8E0E2792D64C003E3833 /* ViewController.swift in Sources */,
+				D06A8E0E2792D64C003E3833 /* MainViewController.swift in Sources */,
+				D06A8E202792D8D9003E3833 /* ViewControllerWithView.swift in Sources */,
+				D06A8E272792E51F003E3833 /* ToDoCell.swift in Sources */,
 				D06A8E0A2792D64C003E3833 /* AppDelegate.swift in Sources */,
-				D06A8E0C2792D64C003E3833 /* SceneDelegate.swift in Sources */,
+				D06A8E242792DA59003E3833 /* TODOModel.swift in Sources */,
+				D06A8E302792FBC7003E3833 /* TableViewExtension.swift in Sources */,
+				D06A8E2C2792E8CE003E3833 /* UIButtonExtension.swift in Sources */,
+				D06A8E3227930033003E3833 /* SceneDelegate.swift in Sources */,
+				D06A8E222792D997003E3833 /* MainView.swift in Sources */,
+				D06A8E2E2792F800003E3833 /* MainViewViewModel.swift in Sources */,
+				D06A8E292792E57E003E3833 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +400,6 @@
 				INFOPLIST_FILE = TODOappFinantech/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,7 +428,6 @@
 				INFOPLIST_FILE = TODOappFinantech/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
